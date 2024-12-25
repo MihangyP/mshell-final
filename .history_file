@@ -1,0 +1,32 @@
+ls
+ls
+pwd
+cd srcs/
+ls
+pwd
+env | grep PWD
+ls
+pwd
+env
+exit
+ls
+pwd
+ls
+kkds
+echo $?
+/kkf
+echo $?
+ls
+ls
+exit
+ls
+ls
+echo $?
+exit
+exit
+<< ls
+cat << ls
+ls
+ls
+<< ls
+ls
