@@ -30,3 +30,70 @@ ls
 ls
 << ls
 ls
+<< ls
+ls
+ls
+pwd
+<< ls
+ls
+ls
+pwd
+ls
+ls
+pwd
+cat << ls << eof
+ls
+pwd
+<< ls
+echo $?
+ls
+pwd
+<< ls
+ls
+pwd
+<< ls
+ls
+<< ls
+ev
+env
+env skk
+env ddldl
+ls
+<< ls
+ls
+ls
+pwd
+dkdks
+kkdskd;ddk
+kkdk/
+echo $?
+ls
+ls
+ls
+ls
+env
+export
+ls
+ls
+ls
+ls
+exit
+exit "   42"
+exit " 42" df
+ls
+ls
+pwd
+ls
+pwd
+<< l
+sldld
+jdjjf
+echo $?
+<< ls
+echo $?
+ls
+pwd
+ls
+pwd
+echo $HOME$
+echo $$HOME

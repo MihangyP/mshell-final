@@ -34,14 +34,14 @@ static int	check_digit(char *str)
 	return (1);
 }
 
-static void	exit_n_free(char **envp, t_ast_node *ast, int status)
+static void	exit_n_free(char **env, t_ast_node *ast, int status)
 {
 	free_ast(&ast);
-	free_split(envp);
+	free_split(env);
 	exit(status);
 }
 
-int	ft_exit(char **cmd, t_ast_node *ast, char **envp, int flag)
+int	exit_mshell(char **cmd, t_ast_node *ast, char **env, int flag)
 {
 	unsigned int	status;
 	char			*str;
@@ -54,7 +54,7 @@ int	ft_exit(char **cmd, t_ast_node *ast, char **envp, int flag)
 		if (check_digit(cmd[1]) == 1)
 			return (EXIT_FAILURE);
 		else
-			exit_n_free(envp, ast, 2);
+			exit_n_free(env, ast, 2);
 	}
 	else if (cmd[1])
 	{
@@ -64,6 +64,6 @@ int	ft_exit(char **cmd, t_ast_node *ast, char **envp, int flag)
 		free(str);
 	}
 	if (flag == 1)
-		exit_n_free(envp, ast, status);
+		exit_n_free(env, ast, status);
 	return (status);
 }

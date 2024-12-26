@@ -17,7 +17,7 @@ int	opt_cmp(char *str)
 		return (0);
 }
 
-int	ft_echo(char **args)
+int	echo_mshell(char **args)
 {
 	int	opt;
 	int	i;

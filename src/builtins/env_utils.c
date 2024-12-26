@@ -1,16 +1,16 @@
 #include <minishell.h>
 
-t_list	*get_env_lst(char **envp)
+t_list	*get_env_lst(char **env)
 {
 	int		i;
 	t_list	*env_lst;
 
 	i = 0;
-	env_lst = ft_lstnew((void *)ft_strdup(envp[i]));
+	env_lst = ft_lstnew((void *)ft_strdup(env[i]));
 	i++;
-	while (envp[i])
+	while (env[i])
 	{
-		ft_lstadd_back(&env_lst, ft_lstnew((void *)ft_strdup(envp[i])));
+		ft_lstadd_back(&env_lst, ft_lstnew((void *)ft_strdup(env[i])));
 		i++;
 	}
 	return (env_lst);

@@ -93,7 +93,7 @@ int	change_dir(char *path, char ***env)
 	return (0);
 }
 
-int	mns_cd(char **cmd, char ***env)
+int	cd_mshell(char **cmd, char ***env)
 {
 	char	*cwd;
 

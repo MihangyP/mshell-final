@@ -41,7 +41,7 @@ void	remove_one(t_list **env_lst, char *to_remove)
 	}
 }
 
-int	ft_unset(char **cmd, char ***env)
+int	unset_mshell(char **cmd, char ***env)
 {
 	t_list	*env_lst;
 	int		i;

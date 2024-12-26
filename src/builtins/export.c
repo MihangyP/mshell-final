@@ -83,7 +83,7 @@ void	export_assignement(char **assignement, t_list *env_lst, int	*status)
 	}
 }
 
-int	ft_export(char **cmd, char ***env)
+int	export_mshell(char **cmd, char ***env)
 {
 	t_list	*env_lst;
 	char	**tmp;

@@ -1,6 +1,6 @@
 #include <minishell.h>
 
-int	ft_env(char **env, char **cmd)
+int	env_mshell(char **env, char **cmd)
 {
 	int	i;
 

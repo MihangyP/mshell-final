@@ -1,7 +1,6 @@
 #include <minishell.h>
-#include <unistd.h>
 
-int	ft_pwd(char **args, char **env)
+int	pwd_mshell(char **args, char **env)
 {
 	char	*pwd;
 
